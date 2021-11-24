@@ -8,6 +8,7 @@ Mozilla Firefox gives the following error: The stylesheet http://mezzio/css/styl
 Install the app, and run http://mezzio/legacy_test_file.php
 
 Or alternatively this is how I made the app:
+
 0. Install mezzio skeleton app
 1. Add src/App/src/Middleware/LegacyApplicationMiddleware.php
 2. Add factory in config: LegacyApplicationMiddleware::class => InvokableFactory::class
